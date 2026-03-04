@@ -1,0 +1,131 @@
+body {
+  font-family: sans-serif;
+}
+
+/* NAV MENU */
+.top-nav {
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #222;
+}
+
+.top-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+}
+
+/* HOMEPAGE */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+.home-hero {
+  min-height: calc(100vh - 60px); /* minus nav height */
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* background-image: url("/src/images/homepage-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+
+.home-hero h1 {
+  font-size: rem;
+  margin-bottom: 5rem;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.hero-button {
+  padding: 0.9rem 1.8rem;
+  border-radius: 999px;
+  border: none;
+  text-decoration: none;
+  background-color: #222;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.hero-button.secondary {
+  background-color: #ffffffcc;
+  color: #222;
+}
+
+.hero-button:hover {
+  opacity: 0.9;
+}
+
+/* Full-page orange background */
+html,
+body {
+  height: 200%;
+  background: #ffb347; /* soft orange */
+  font-family: "Georgia", "Times New Roman", serif; /* more stylized */
+  color: #3b1a00;
+}
+
+/* Map container sizing so it still shows nicely */
+#map {
+  width: 95vw;
+  height: 60vh;
+  margin: 0rem auto;
+  display: block;
+}
+
+/* Optional: make Leaflet attribution text subtler */
+.leaflet-control-attribution {
+  font-size: 0.5rem;
+}
+
+.leaflet-marker-icon {
+  filter: drop-shadow(0 20px 5px rgba(0, 0, 0, 0.3));
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  margin-top: 1rem;
+  align-items: baseline;
+}
+
+.nav-buttons button {
+  width: 1000px;
+  padding: 6px 12px;
+  margin: 6px;
+  font-size: 2rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  background-color: #6e55c8;
+  color: rgb(238, 205, 255);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.nav-buttons button:hover {
+  background-color: #9d4aca;
+}
+
+.nav-buttons button:active {
+  background-color: #6e55c8;
+}
+
+/* hide helper */
+.hidden {
+  display: none;
+}

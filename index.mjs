@@ -1,5 +1,5 @@
 // Import libraries
-import "./styles.css";
+import "styles.css";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 

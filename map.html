@@ -3,7 +3,6 @@
   <head>
     <title>JavaScript Sandbox</title>
     <meta charset="UTF-8" />
-
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -15,7 +14,6 @@
       }
     </style>
   </head>
-
   <body>
     <div class="top-nav">
       <a href="index.html">Home</a>
@@ -23,7 +21,6 @@
       <a href="instructions.html">How to Use</a>
       <a href="about.html">About</a>
     </div>
-    <!-- <div id="app"></div> -->
 
     <h1>A Digital Map of Historic Filipinotown</h1>
     <h3>A Community Media Lab (SIPA) Project</h3>
@@ -31,10 +28,11 @@
     <label class="tour-toggle">
       <input type="checkbox" id="show-tour-buttons" /> Show tour buttons
     </label>
-    <br />
+    <br /><br />
+
     <input type="checkbox" id="la-overlay-toggle" name="la-overlay-toggle" />
     <label for="la-overlay-toggle"> Show historical imagery</label>
-    <br /><br />
+    <br /><br /><br />
 
     <div id="map"></div>
     <div class="nav-buttons" id="tour-buttons">
@@ -43,6 +41,6 @@
     </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="index.mjs"></script>
+    <script type="module" src="index.mjs"></script>
   </body>
 </html>

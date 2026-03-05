@@ -378,15 +378,15 @@ const SPOTS = [
 ];
 
 // Import images for spots
-import sipaHqImg from "./images/sipa-hq.png";
-import littleManilaImg from "./images/littlemanila.png";
-import figTempleImg from "./images/fig-temple.png";
-import echoParkImg from "./images/echo-park-library.png";
-import luzonPlazaImg from "./images/luzon-plaza.png";
-import valorImg from "./images/valor-monument.png";
-import templeCorridorImg from "./images/temple-corridor.png";
-import beverlyCorridorImg from "./images/beverly-corridor.png";
-import unidadParkImg from "./images/unidad-park.png";
+import sipaHqImg from "sipa-hq.png";
+import littleManilaImg from "littlemanila.png";
+import figTempleImg from "fig-temple.png";
+import echoParkImg from "echo-park-library.png";
+import luzonPlazaImg from "luzon-plaza.png";
+import valorImg from "valor-monument.png";
+import templeCorridorImg from "temple-corridor.png";
+import beverlyCorridorImg from "beverly-corridor.png";
+import unidadParkImg from "unidad-park.png";
 
 // Ensure images are imported
 const IMAGE_MAP = {
@@ -439,7 +439,7 @@ const laBounds = L.latLngBounds(
   [34.05550536497346, -118.23874675652449] // northeast corner (approx)
 );
 const laOverlay = L.imageOverlay(
-  "./images/sanborn-little-manila.png",
+  "sanborn-little-manila.png",
   laBounds,
   {
     opacity: 100, // How much is the overlay
